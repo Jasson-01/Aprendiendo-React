@@ -10,7 +10,7 @@ export const componentes = () => {
   )
 }
 
-// --------------------------2era FORMA
+// --------------------------2da FORMA
 
 // function Componente2() {
 //     return (<h1>Hola Mundo!</h1>);
