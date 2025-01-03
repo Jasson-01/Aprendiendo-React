@@ -12,14 +12,18 @@ const fecha = new Date()
 // Veamos como llamamos a las variables:
 export const componente1 = () => {
   return (
-    // <div>{}</div>    // ---> Dentro de las llaves podemos hacer codigo de javaScript
-    // <p>{ string }</p>
-    // <p>{ number }</p>  
-    // <p>{ array }</p>
-    // <p>{ boolean }</p>  // ---> React no escribe los booleanos como un string
-    // <p>{ funcion() }</p>   // ----> Debemos poner los parentesis para poder ejecutar la funcion 
-    // <p>{ JSON.stringify(objeto) }</p> // ---> Si queremos que se muestre un objeto usamos JSON.stringify()
-    <p>{ JSON.stringify(fecha) }</p> // ---> Si queremos que se muestre un objeto usamos JSON.stringify()
-
+    {} // --> Solo esta para que no de error. (Puedes ignorarlo)
+  /*
+   <> // ---> A esto se le llama "Fragment en JSX" --> Esto pasa porque ? ----> "Las expresiones en JSX deben tener solo un elemento padre". 
+       <div>{}</div>    // ---> Dentro de las llaves podemos hacer codigo de javaScript.
+       <p>{ string }</p>
+       <p>{ number }</p>  
+       <p>{ array }</p>
+       <p>{ boolean }</p>  // ---> React no escribe los booleanos como un string.
+       <p>{ funcion() }</p>   // ----> Debemos poner los parentesis para poder ejecutar la funcion. 
+       <p>{ JSON.stringify(objeto) }</p> // ---> Si queremos que se muestre un objeto usamos JSON.stringify()
+       <p>{ JSON.stringify(fecha) }</p> // ---> Si queremos que se muestre un objeto usamos JSON.stringify()
+    </>
+  */
   )
-}
+};
